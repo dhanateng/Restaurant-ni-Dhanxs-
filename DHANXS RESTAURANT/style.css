@@ -1,0 +1,300 @@
+/*index*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+  }
+
+  
+
+  h2 {
+    font-size: 2.0rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    background-color:   #00ba4d ;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color:  #55e992 ;
+  }
+
+  img {
+    border-radius: 1000px;
+  }
+
+
+
+/* Restaurant-specific styling */
+body {
+  
+    padding: 25px;
+    background: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px 2000px;
+  
+}
+
+.h4{
+    color: #000000;
+    font-size: large;
+}
+.menu-thumbnail {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.dish-item:hover {
+    background-color: #000000;
+    transform: scale(1.02);
+}
+
+.price-badge {
+    background: #4beb1fdc;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+@keyframes popIn {
+    0% { transform: scale(0); }
+    80% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.dish-image {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+    animation: popIn 0.6s ease-out;
+}
+
+/*select order*/
+
+  
+/* Navbar Styles */
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    color: #000000;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff7c7c;
+}
+
+
+
+/* Order Form Styles */
+#order-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+   background-image: -moz-linear-gradient(url(images/1.jpg));
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(255, 255, 255);
+    color: #000000;
+    font-size: 1rem;
+}
+
+#order-form label {
+    font-weight: 600;
+}
+
+#order-form input, #order-form textarea {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#order-form button[type="submit"] {
+    background-color: #1ac414;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#order-form button[type="submit"]:hover {
+    background-color: #83c743;
+}
+
+#order-form button[type="cancel"] {
+    background-color: #33e407;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#order-form button[type="cancel"]:hover {
+    background-color: #f70307;
+}
+
+
+#order-form button[type="cancel"] {
+    background-color: #caa2a2;
+    color: rgb(36, 105, 47);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.order-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+/*about*/
+.row.mt-5 {
+    margin-top: 4rem !important;
+   }
+   
+   
+
+   h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  
+  h3 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+ p1{
+    font-size: 2.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+  p {
+    font-size: 1.2rem;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+   .col-md-4 {
+    padding: 30px;
+    background-color: #e9cf79;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   .mb-3{
+    color: #ffffff;
+   }
+  
+   .col-md-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+   }
+   
+  
+   h3 {
+    color: #27275f;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+   }
+
+   /*contact*/
+   .col-md-6 p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+   }
+   
+  
+   .col-md-6 a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+   }
+   p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  
+  
+   .col-md-6 a:hover {
+    color: #ffffff;
+   }
+   
+  
+   /* Optional: Add a background to the contact form */
+   
+   
+
+    /* Social Media Icons */
+ .social-media-icons {
+    margin-top: 20px;
+   }
+   
+  
+   .social-media-icons a {
+    display: inline-flex; /* Use inline-flex for better control */
+    align-items: center; /* Vertically center the icon */
+    justify-content: center; /* Horizontally center the icon */
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #333; /* Change color as desired */
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+   }
+   
+  
+   .social-media-icons a:hover {
+    background-color: #e44d26; /* Brand color on hover */
+   }
+  
+
+
